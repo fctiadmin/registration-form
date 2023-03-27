@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="">
+                <div class="col-6">
+                    <div class="input-group">
+                        <label for="">Name</label>
+                        <input type="text" name="name" id="name" maxlength="10" minlength="3" tabindex="1">
+                    </div>
+                    <div class="input-group">
+                        <label for="">Phone</label>
+                        <input type="tel" readonly name="Phone" id="phone" tabindex="3" value="01928248173" pattern="01[9|7|8|5|4|3|6][0-9]{8}" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="">Email</label>
+                        <input type="email" name="email" id="email" title="format:sample@gmail.com"  tabindex="2" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="">Password</label>
+                        <input type="password" name="password" id="password" tabindex="4">
+                    </div>
+                    <div class="btn-group">
+                        <button tabindex="4">Register</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

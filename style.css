@@ -1,0 +1,9 @@
+.container .form form{
+    background: #2A2A68;
+}
+.container .form form .col-6 .input-group{
+padding: 20px 50px;
+}
+.container .form form .col-6 .input-group input{
+    width: 100%;
+}
